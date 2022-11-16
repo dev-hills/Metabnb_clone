@@ -50,3 +50,9 @@ footer {
 
 }
 
+@media screen and (max-width: 769px) and (min-width: 480px) {
+    footer {
+        width: auto;
+    }
+}
+
