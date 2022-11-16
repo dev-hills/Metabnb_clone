@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: space-around;
     margin-top: 50px;
+    
 }
 
 .tilted_images {
@@ -31,5 +32,26 @@
     font-weight: 400;
     font-size: 16px;
     border-radius: 8px;
+}
+
+@media screen and (max-width: 769px) and (min-width: 480px) {
+    .tilted_images img {
+        width: 372px;
+        margin-right: 286px;
+    }
+
+    .texts {
+        margin-left: 97px;
+    }
+}
+
+@media screen and (max-width: 481px) and (min-width: 319px) {
+   .tilted_images img {
+    width: 488px;
+   } 
+
+   .main_group {
+     width: 887px;
+   }
 }
 

@@ -12,3 +12,13 @@
     justify-content: space-evenly;
     align-items: center;
 }
+
+@media screen and (max-width: 481px) and (min-width: 319px) {
+    .navigationn {
+        width: 887px;
+    }
+
+    .groups {
+    width: 887px;
+    }
+}

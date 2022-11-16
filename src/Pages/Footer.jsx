@@ -20,7 +20,7 @@ const Footer = () => (
         <div className='infoo'>
             <div className='row1'>
                 <p className='paragraph'>Community</p>
-                <ul>
+                <ul style={{'list-style-type': 'none'}}>
                     <li>NFT</li>
                     <li>Tokens</li>
                     <li>Landlords</li>
@@ -30,7 +30,7 @@ const Footer = () => (
 
             <div className='row2'>
                 <p className='paragraph'>Places</p>
-                <ul>
+                <ul style={{'list-style-type': 'none'}}>
                     <li>Castle</li>
                     <li>Farms</li>
                     <li>Beach</li>
@@ -40,7 +40,7 @@ const Footer = () => (
 
             <div className='row3'>
                 <p className='paragraph'>About us</p>
-                <ul>
+                <ul style={{'list-style-type': 'none'}}>
                     <li>Road map</li>
                     <li>Creators</li>
                     <li>Career</li>

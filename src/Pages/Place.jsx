@@ -45,7 +45,7 @@ const Place = () => {
         <img src={Filter} alt=''/>
       </div>
 
-      <div>
+      <div className='groups'>
         <div className='group_frame2'>
         <div className='frame5'>
             <img src={frame1} alt =''/>

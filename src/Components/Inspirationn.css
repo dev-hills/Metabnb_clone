@@ -98,3 +98,20 @@
         flex-direction: column;
     }
 }
+
+@media screen and (max-width: 481px) and (min-width: 319px) {
+    .group_frame1,
+    .group_frame2,
+    .group_frame3,
+    .group_frame4 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inspo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 887px;
+    }
+}

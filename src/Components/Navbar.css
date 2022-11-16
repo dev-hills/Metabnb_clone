@@ -52,7 +52,39 @@ footer {
 
 @media screen and (max-width: 769px) and (min-width: 480px) {
     footer {
-        width: auto;
+    width: 790px;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-evenly;
+    margin-left: -114px;
     }
 }
 
+@media screen and (max-width: 769px) and (min-width: 480px) {
+    .logo {
+        align-items: center;
+        margin-left: 37px;
+    }
+
+    .navigation ul {
+        font-size: 15px;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 481px) and (min-width: 319px) {
+    .logo {
+        align-items: center;
+        margin-left: 37px;
+    }
+
+    .navigation ul {
+        font-size: 15px;
+        gap: 10px;
+    }
+
+    .navbar{
+        width: 887px;
+    }
+}
