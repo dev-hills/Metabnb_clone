@@ -1,0 +1,14 @@
+.navigationn a{
+    text-decoration: none;
+    color: #B4B4B4;
+    font-family: 'Red Rose';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.navigationn {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

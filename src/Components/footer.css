@@ -1,0 +1,53 @@
+.footer {
+    background-color: #1D1D1E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.metabnb {
+    padding-top: 60px;
+}
+
+.social {
+    display: flex;
+    gap: 30px;
+    padding-top: 100px;
+}
+
+.copyright {
+    color: white;
+    font-family: 'Red Rose';
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 50px;
+}
+
+.infoo {
+    gap: 150px;
+    color: white;
+    font-family: 'Red Rose';
+    display: flex;
+}
+
+.info li {
+    list-style-type: none;
+}
+
+.row1 .paragraph, 
+.row2 .paragraph, 
+.row3 .paragraph {
+    margin-left: 77px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.row1 ul li, 
+.row2 ul li, 
+.row3 ul li {
+    margin-left: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 17px;
+}

@@ -1,0 +1,35 @@
+.main_group {
+    background-color: #A02279;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.tilted_images {
+    margin-top: 40px;
+}
+
+.main_group .texts .information {
+    font-family: 'Red Rose';
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.main_group .texts .information {
+    font-family: 'Red Rose';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.main_group .texts button {
+    background: white;
+    color: #A02279;
+    font-family: 'Red Rose';
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
